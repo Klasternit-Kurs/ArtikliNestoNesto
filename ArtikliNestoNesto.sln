@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtikliNestoNesto", "ArtikliNestoNesto\ArtikliNestoNesto.csproj", "{38BA65F7-F1A4-4B40-9B29-738E55B9BA29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38BA65F7-F1A4-4B40-9B29-738E55B9BA29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38BA65F7-F1A4-4B40-9B29-738E55B9BA29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38BA65F7-F1A4-4B40-9B29-738E55B9BA29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38BA65F7-F1A4-4B40-9B29-738E55B9BA29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89CB66E2-F623-459E-8D52-74FC297E4829}
+	EndGlobalSection
+EndGlobal
