@@ -12,6 +12,23 @@
 			<TextBox Text="{Binding Ucena, UpdateSourceTrigger=PropertyChanged}" FontSize="24"/>
 			<TextBox Text="{Binding Marza, UpdateSourceTrigger=PropertyChanged}" FontSize="24"/>
 		</StackPanel>
-		<DataGrid Name="dg" FontSize="24" IsReadOnly="True" ColumnWidth="*" SelectionChanged="Promena"/>
+		<DataGrid AutoGenerateColumns="False" Name="dg" FontSize="24" IsReadOnly="True" ColumnWidth="*" SelectionChanged="Promena">
+			<DataGrid.Columns>
+				<DataGridTextColumn Header="Naziv" Binding="{Binding Naziv}" />
+				<DataGridTextColumn Header="Ulazna cena" Binding="{Binding Ucena}" />
+				<DataGridTextColumn Header="Marza %" Binding="{Binding Marza}" />
+				<DataGridTextColumn Header="Izlazna cena" Binding="{Binding IzlaznaCena}" />
+				<DataGridTemplateColumn Header="Moja kolona">
+					<DataGridTemplateColumn.CellTemplate>
+						<DataTemplate>
+							<StackPanel>
+								<Button Content="{Binding Naziv}" /> 
+								<Button>Dva</Button>
+							</StackPanel>
+						</DataTemplate>
+					</DataGridTemplateColumn.CellTemplate>
+				</DataGridTemplateColumn>
+			</DataGrid.Columns>
+		</DataGrid>
 	</DockPanel>
 </Window>
